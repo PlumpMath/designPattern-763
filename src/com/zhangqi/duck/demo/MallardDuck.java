@@ -1,0 +1,21 @@
+package com.zhangqi.duck.demo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.zhangqi.duck.shape.Shape;
+
+/**
+ * Ò°Ñ¼
+ * 
+ * @author Administrator
+ * 
+ */
+public class MallardDuck extends Duck {
+	public MallardDuck() {
+		Map<String, String> m = new HashMap<String, String>();
+		m.put(Shape.HEAD.getCode(), "ÂÌÉ«");
+		this.display = m;
+	}
+
+}
