@@ -3,6 +3,9 @@ package com.zhangqi.duck.demo;
 import java.util.Map;
 
 import com.zhangqi.duck.inf.Flyable;
+/*
+ * Ôö¼Ó×¢ÊÍ
+ */
 
 public abstract class Duck {
 
